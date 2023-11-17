@@ -1,0 +1,79 @@
+### 
+GET http://localhost:8080/task/
+
+###
+GET http://localhost:8080/task/1
+
+###
+GET http://localhost:8080/task/abc
+
+### 
+POST http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "owner": "oralcoder"
+}
+
+### 
+POST http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "title": 123,
+  "owner": "oralcoder"
+}
+
+
+
+### 
+POST http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "title": "study",
+  "owner": "oralcoder"
+}
+
+### 
+PUT http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "id": 1,
+  "owner": "oralcoder",
+  "completed": true
+}
+
+### 
+DELETE http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "id": 1
+}
+
+### 
+POST http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "title": "study",
+  "owner": "oralcoder"
+}
+### 
+POST http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "title": "reading book",
+  "owner": "oralcoder"
+}
+### 
+POST http://localhost:8080/task
+Content-Type: application/json; charset=UTF-8
+
+{
+  "title": "ANU class",
+  "owner": "oralcoder"
+}
